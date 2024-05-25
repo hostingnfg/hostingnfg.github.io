@@ -1,0 +1,80 @@
+body {
+    font-family: "Wix Madefor Display", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 50px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+}
+
+.profile-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.contact-info p:first-of-type {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.skills, .languages, .employment-history {
+    margin-bottom: 20px;
+}
+
+.skills-grid, .languages-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills-grid p, .languages-grid p {
+    margin: 10px 0;
+}
+
+.languages-grid p span {
+    display: block;
+    font-size: 0.9em;
+    color: gray;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
